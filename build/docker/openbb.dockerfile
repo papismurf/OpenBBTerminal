@@ -1,5 +1,5 @@
 # SETUP PYTHON IMAGE
-FROM --platform=linux/amd64 python:3.10-slim-bullseye as python
+FROM --platform=linux/amd64 python:3.12.7-slim-bullseye as python
 
 LABEL org.opencontainers.image.source https://github.com/OpenBB-finance/OpenBBTerminal
 
